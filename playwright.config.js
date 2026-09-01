@@ -16,7 +16,7 @@ module.exports = defineConfig({
   reporter: [
     ['list'],                             // Console terminal output
     ['html', { outputFolder: 'playwright-report', open: 'never' }],          // Standard HTML report viewer[cite: 1]
-    ['allure-playwright', { outputFolder: 'allure-results' }] // Third-party visual dashboard[cite: 3, 7]
+    //['allure-playwright', { outputFolder: 'allure-results' }] // Third-party visual dashboard[cite: 3, 7]
   ],
 
   // 3. SHARED CONTEXT & OPTIONS (use)
