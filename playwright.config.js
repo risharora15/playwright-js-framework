@@ -15,7 +15,7 @@ module.exports = defineConfig({
   // 2. REPORTING CONFIGURATION
   reporter: [
     ['list'],                             // Console terminal output
-    ['html', { open: 'never' }],          // Standard HTML report viewer[cite: 1]
+    ['html', { outputFolder: 'playwright-report', open: 'never' }],          // Standard HTML report viewer[cite: 1]
     ['allure-playwright', { outputFolder: 'allure-results' }] // Third-party visual dashboard[cite: 3, 7]
   ],
 
