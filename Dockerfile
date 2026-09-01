@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/playwright:v1.40.0-focal
 WORKDIR /app
-ENV HOME=/root
+ENV HOME=/tmp
 COPY package*.json ./
 RUN npm ci
 COPY . .
